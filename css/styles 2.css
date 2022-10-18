@@ -1,0 +1,142 @@
+body {
+  background-image: linear-gradient(
+    rgba(0, 0, 31, 0.884),
+    rgba(33, 33, 95, 0.747)
+  );
+  margin-left: 150px;
+}
+.signs {
+  display: inline;
+  margin-left: 15px;
+}
+.signs > .sign,
+.sign2 {
+}
+.sign {
+  height: 20px;
+  width: 20px;
+}
+.sign2 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top: 20px;
+  right: 10px;
+}
+.mypic {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  right: 100px;
+  top: 92px;
+  background-image: linear-gradient(
+    rgba(0, 0, 31, 0.884),
+    rgba(33, 33, 95, 0.747)
+  );
+}
+.followlist {
+  width: 15px;
+  height: 15px;
+  text-decoration: none;
+  color: aliceblue;
+}
+.navbar {
+  display: inline;
+  position: absolute;
+  top: 20px;
+  right: 32px;
+  background-color: rgba(37, 16, 71, 0.007);
+}
+.navbutton {
+  background-color: rgba(31, 3, 75, 0);
+  text-decoration: none;
+  border: none;
+  color: aliceblue;
+}
+h1 {
+  color: aliceblue;
+}
+.button2 {
+  border-style: solid;
+  border-radius: 50px/50px;
+  border-width: 5px;
+
+  border-color: rgba(42, 24, 73, 0.103);
+  background-color: rgba(42, 24, 73, 0.356);
+  -webkit-text-fill-color: aliceblue;
+  width: 120px;
+  height: 80px;
+}
+.about {
+  background-image: linear-gradient(
+    rgba(37, 37, 48, 0.884),
+    rgba(52, 52, 92, 0.747)
+  );
+  display: flex;
+  color: aliceblue;
+}
+.intro {
+  color: aliceblue;
+  height: max-content;
+  font-size: 25px;
+}
+.about > .sign,
+.sign2,
+.intro,
+.mypic,
+.button2 {
+  padding: 10px;
+  margin: 10px;
+  justify-content: space-around;
+}
+h2 {
+  justify-content: center;
+  text-align: center;
+  color: aliceblue;
+}
+h4 {
+  text-align: center;
+  color: aliceblue;
+}
+hr {
+  border-radius: 50px/40px;
+  height: 3px;
+  width: 400px;
+  justify-content: center;
+  color: blueviolet;
+  background-color: blueviolet;
+}
+.experiance {
+  color: aliceblue;
+  font-size: 20px;
+  padding: 20px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+.contact {
+  color: aliceblue;
+  width: max-content;
+  display: block;
+  padding: 10px;
+  margin-top: 15px;
+}
+.contact-box > .contact {
+  padding: 15px;
+  margin-left: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(110, 125, 126);
+  height: 75px;
+  width: 200px;
+}
+.footer {
+  background-image: linear-gradient(
+    rgba(35, 35, 75, 0.582),
+    rgba(22, 22, 56, 0.281)
+  );
+  height: 150px;
+}
+.contact-box {
+  padding: 10px;
+}
